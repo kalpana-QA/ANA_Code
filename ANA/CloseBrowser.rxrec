@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="78851d47-83d6-426a-96e2-a77330a80b4b"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="ANA">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="95184b95-dfd7-4d99-a7cb-1d0719db3c1d">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="57498983-ee68-4f6d-b2a8-ef0ec2e7ff5a"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='iexplore']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="d1c103f9-ff8c-48f6-b6cc-f735ed285678"
+	name="ANARepository"
+	relativepath="ANARepository.rxrep">
+		<codegen
+		classname="ANARepository"
+		namespace="ANA">
+		</codegen>
+		<rootfolder
+		id="03a5e1f6-ad4f-4699-9c4f-29b56a6c6347"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

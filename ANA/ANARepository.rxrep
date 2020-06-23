@@ -1,0 +1,385 @@
+﻿<repository
+id="d1c103f9-ff8c-48f6-b6cc-f735ed285678"
+name="ANARepository">
+	<codegen
+	classname="ANARepository"
+	namespace="ANA">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="03a5e1f6-ad4f-4699-9c4f-29b56a6c6347"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="57498983-ee68-4f6d-b2a8-ef0ec2e7ff5a"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="fb69a3ab-3d20-433d-95b7-f2331ae3fe5e"
+			name="JoinANA"
+			refimgid="aed25ed5-e92c-4263-b51b-087b6ee915cc"
+			refpath="/dom[@domain='test.nursingworld.org']//body[#'top']/header/div/div[1]/div/div/div/div/div[2]/nav/ul/li[3]/a[@title='Join ANA']"
+			searchtimeout="30000ms">
+				/dom[@domain='test.nursingworld.org']//body[#'top']/header/div/div[1]/div/div/div/div/div[2]/nav/ul/li[3]/a[@title='Join ANA']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="baae085a-0244-406e-bef9-2dcdf9d6ab8e"
+			name="JOINUSTODAY"
+			refimgid="ae6e117f-1f0f-4ead-a87d-4451e1b5e657"
+			refpath="/dom[@domain='test.nursingworld.org']//main[#'content']/div[1]/div[2]/div/div[3]/div[1]/p[3]/a[@innertext='JOIN US TODAY']"
+			searchtimeout="30000ms">
+				/dom[@domain='test.nursingworld.org']//main[#'content']/div[1]/div[2]/div/div[3]/div[1]/p[3]/a[@innertext='JOIN US TODAY']
+			</item>
+			<folder
+			capname="webdocument"
+			id="adcc0097-cad3-4890-b4b0-ece723c89a22"
+			isrooted="True"
+			name="MemberShip_Page"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="e48ec7b9-742e-4147-bed8-3c2a1fe26fa0"
+				name="BtnSaveMemberShipProducts"
+				refimgid="1c9b0140-4ce9-4c86-a234-1ca9b7a2924a"
+				refpath="/dom[@domain='test.nursingworld.org']//a[#'btnSaveMemberShipProducts']"
+				searchtimeout="30000ms">
+					/dom[@domain='test.nursingworld.org']//a[#'btnSaveMemberShipProducts']
+				</item>
+				<basepath>
+					/dom[@domain='test.nursingworld.org']
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain='test.nursingworld.org']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<folder
+		capname="unknown"
+		id="13c65b4c-d861-48cf-928f-66b5ad3d7b74"
+		isrooted="False"
+		name="Profile"
+		searchtimeout="0ms">
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="5d4f48e2-82f5-4fdd-b442-07d45e4f8933"
+			name="DdlEmpStatus"
+			refimgid="5818af62-a642-4152-8314-f453d1828064"
+			refpath="/dom[@domain='test.nursingworld.org']//select[#'ddlEmpStatus']"
+			searchtimeout="30000ms">
+				/dom[@domain='test.nursingworld.org']//select[#'ddlEmpStatus']
+			</item>
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="1faa8ac5-0ede-4033-81e9-abe6ae2aff80"
+			name="STATE"
+			refimgid="a5fdc170-fdbc-4227-aff5-1311f8daac1d"
+			refpath="/dom[@domain='test.nursingworld.org']//select[#'STATE']"
+			searchtimeout="30000ms">
+				/dom[@domain='test.nursingworld.org']//select[#'STATE']
+			</item>
+		</folder>
+		<item
+		addcaps="unknown,webelement,inputtag"
+		capname="inputtag"
+		id="908e1e9d-3481-4733-8b76-66c06151cafd"
+		name="Lastname"
+		refimgid="efb49fff-ce9d-4b82-98a7-a74820e8dd5f"
+		refpath="/dom[@domain='test.nursingworld.org']//input[#'lastname']"
+		searchtimeout="30000ms">
+			/dom[@domain='test.nursingworld.org']//input[#'lastname']
+		</item>
+		<item
+		addcaps="unknown,webelement,inputtag"
+		capname="inputtag"
+		id="c6d7db9f-f414-4d98-b2d0-e90913ae1a05"
+		name="Firstname"
+		refimgid="3d1309bc-5a80-4953-aa54-1884d2014a18"
+		refpath="/dom[@domain='test.nursingworld.org']//input[#'firstname']"
+		searchtimeout="30000ms">
+			/dom[@domain='test.nursingworld.org']//input[#'firstname']
+		</item>
+		<item
+		addcaps="unknown,webelement,inputtag"
+		capname="inputtag"
+		id="01a8406d-5f65-4f7b-b669-13a6b7558c4f"
+		name="AddressField1"
+		refimgid="95ff1131-9e82-4d0e-a214-11179eceb559"
+		refpath="/dom[@domain='test.nursingworld.org']//div[#'address']/p[2]/input[@type='text']"
+		searchtimeout="30000ms">
+			/dom[@domain='test.nursingworld.org']//div[#'address']/?/?/input[@type='text']
+		</item>
+		<item
+		addcaps="unknown,webelement,inputtag"
+		capname="inputtag"
+		id="896695ff-4e3c-48ac-bff3-0c37ab4d1d26"
+		name="CITY"
+		refimgid="5d601a6b-6a11-469a-af03-b2442edcacdb"
+		refpath="/dom[@domain='test.nursingworld.org']//input[#'CITY']"
+		searchtimeout="30000ms">
+			/dom[@domain='test.nursingworld.org']//input[#'CITY']
+		</item>
+		<item
+		addcaps="unknown,webelement,inputtag"
+		capname="inputtag"
+		id="8d7b553d-4242-42f1-99a5-2d5db66c2703"
+		name="Zipcode"
+		refimgid="9a691b00-3204-42b8-b127-a6336c798ba6"
+		refpath="/dom[@domain='test.nursingworld.org']//div[#'address']/p[7]/input[@type='text']"
+		searchtimeout="30000ms">
+			/dom[@domain='test.nursingworld.org']//div[#'address']/p[7]/input[@type='text']
+		</item>
+		<item
+		addcaps="unknown,webelement,inputtag"
+		capname="inputtag"
+		id="ddb23936-a5c8-40ce-9f4c-9b0569fd4db1"
+		name="phone1"
+		refimgid="7d555efe-c7fa-4d1f-8af8-17801f4cbaf4"
+		refpath="/dom[@domain='test.nursingworld.org']//div[#'phone']/div/span[1]/input[@type='text']"
+		searchtimeout="30000ms">
+			/dom[@domain='test.nursingworld.org']//div[#'phone']//input[@type='text']
+		</item>
+		<item
+		addcaps="unknown,webelement,inputtag"
+		capname="inputtag"
+		id="b0c7beb4-2111-43f6-ac6a-28b366f5a7e1"
+		name="Phone2"
+		refimgid="b8e5bd92-754f-4770-9226-4c3b3832b3aa"
+		refpath="/dom[@domain='test.nursingworld.org']//div[#'phone']/div/span[2]/input[@type='text']"
+		searchtimeout="30000ms">
+			/dom[@domain='test.nursingworld.org']//div[#'phone']/div/span[2]/input[@type='text']
+		</item>
+		<item
+		addcaps="unknown,webelement,inputtag"
+		capname="inputtag"
+		id="4013150d-a8ef-4f37-81b3-f60f06945737"
+		name="phone3"
+		refimgid="5046e575-7818-4d25-8d2c-21711d22dd2f"
+		refpath="/dom[@domain='test.nursingworld.org']//div[#'phone']/div/span[3]/input[@type='text']"
+		searchtimeout="30000ms">
+			/dom[@domain='test.nursingworld.org']//div[#'phone']/div/span[3]/input[@type='text']
+		</item>
+		<item
+		addcaps="unknown,webelement,inputtag"
+		capname="inputtag"
+		id="6f2015cd-58f3-4637-8d6d-d1018b3bf8d1"
+		name="NewPassword"
+		refimgid="768c51d9-72b0-4485-8786-0857d1b1ca16"
+		refpath="/dom[@domain='test.nursingworld.org']//div[#'content_area_main']/div/div[2]/div[1]/p[8]/input[@type='password']"
+		searchtimeout="30000ms">
+			/dom[@domain='test.nursingworld.org']//div[#'content_area_main']/div/div[2]/div[1]/p[8]/input[@type='password']
+		</item>
+		<item
+		addcaps="unknown,webelement,inputtag"
+		capname="inputtag"
+		id="10af4948-26e7-47b5-8f2a-8a99cbc1e9ee"
+		name="ConfirmPassword"
+		refimgid="0e571f0d-92be-4901-a988-7249454d5e52"
+		refpath="/dom[@domain='test.nursingworld.org']//div[#'content_area_main']/div/div[2]/div[1]/p[9]/input[@type='password']"
+		searchtimeout="30000ms">
+			/dom[@domain='test.nursingworld.org']//div[#'content_area_main']/div/div[2]/div[1]/p[9]/input[@type='password']
+		</item>
+		<item
+		addcaps="unknown,webelement,selecttag"
+		capname="selecttag"
+		id="7e59c86c-1d0d-4799-a399-7902eea23378"
+		name="PositionDescription"
+		refimgid="9d1b68ad-ca38-489d-8109-d6ee9365609a"
+		refpath="/dom[@domain='test.nursingworld.org']//div[#'radio_options']/p[1]/label[2]/select"
+		searchtimeout="30000ms">
+			/dom[@domain='test.nursingworld.org']//div[#'radio_options']//select
+		</item>
+		<item
+		addcaps="unknown,webelement,optiontag"
+		capname="optiontag"
+		id="be4deeaa-f030-43a1-b57d-0bc18e902fc7"
+		name="ADVANCEDPRACTICE"
+		refpath="/dom[@domain='test.nursingworld.org']//div[#'radio_options']/p[1]/label[2]/select/option[@value='ADVANCED_PRACTICE']"
+		searchtimeout="30000ms">
+			/dom[@domain='test.nursingworld.org']//div[#'radio_options']//select/option[@value='ADVANCED_PRACTICE']
+		</item>
+		<item
+		addcaps="unknown,webelement,atag"
+		capname="atag"
+		id="97f3a658-4c59-4dcd-8b4e-047b8a3392e7"
+		name="Userregnext"
+		refimgid="71a8b85e-bee4-45f8-8fa8-fe0f003cfe18"
+		refpath="/dom[@domain='test.nursingworld.org']//a[#'userregnext']"
+		searchtimeout="30000ms">
+			/dom[@domain='test.nursingworld.org']//a[#'userregnext']
+		</item>
+		<item
+		addcaps="unknown,webelement,inputtag"
+		capname="inputtag"
+		id="b64cc85a-0079-4857-9f4a-26f8faea2ab7"
+		name="TxtEmail"
+		refimgid="155dbe83-5453-4080-a6a1-269306ba2ea5"
+		refpath="/dom[@domain='test.nursingworld.org']//input[#'txtEmail']"
+		searchtimeout="30000ms">
+			/dom[@domain='test.nursingworld.org']//input[#'txtEmail']
+		</item>
+		<item
+		addcaps="unknown,webelement,atag"
+		capname="atag"
+		id="7102ea50-58a4-49e0-b27e-378ad45ab8f2"
+		name="BtnNext"
+		refimgid="dcbb0f04-929d-4ba3-9f8a-a8b51b430fc0"
+		refpath="/dom[@domain='test.nursingworld.org']//a[#'btnNext']"
+		searchtimeout="30000ms">
+			/dom[@domain='test.nursingworld.org']//a[#'btnNext']
+		</item>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="6eedf114-e7b7-4aee-b825-28af62dcdc97"
+		isrooted="True"
+		name="Login"
+		refpath="/dom[@domain='anatst2.personifycloud.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="9ff41d4a-44a6-412d-a849-ebfeeb4779db"
+			name="Password"
+			refimgid="59eb4a46-d29d-4d8b-8964-517dfb5b5624"
+			refpath="/dom[@domain='anatst2.personifycloud.com']//input[#'password']"
+			searchtimeout="30000ms">
+				/dom[@domain='anatst2.personifycloud.com']//input[#'password']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="c5033e01-ceeb-4253-89fe-63a01a8531ba"
+			name="Login"
+			refimgid="0208dd5e-0321-4fd9-a359-ded2d90089e7"
+			refpath="/dom[@domain='anatst2.personifycloud.com']//input[#'login']"
+			searchtimeout="30000ms">
+				/dom[@domain='anatst2.personifycloud.com']//input[#'login']
+			</item>
+			<basepath>
+				/dom[@domain='anatst2.personifycloud.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="78946c15-2b98-47df-9419-e1a77fd1a34f"
+		isrooted="True"
+		name="SelectingOptionInASelectListDrop"
+		refpath="/dom[@domain='www.ranorex.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="bb02e8a7-611f-4fa5-a7e3-aaf324cf17eb"
+			name="Inner"
+			refimgid="d480457e-a4f2-4cc9-9a5c-15a77d9b1790"
+			refpath="/dom[@domain='www.ranorex.com']//div[#'page-body']/div[4]/div"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//div[#'page-body']/div[4]/div
+			</item>
+			<basepath>
+				/dom[@domain='www.ranorex.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,accessible"
+		capname="container"
+		id="89eb2975-c29b-47e7-bb82-99a0824c007a"
+		isrooted="True"
+		name="Dropdown"
+		refpath="/container[@caption='dropdown']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="listitem,accessible"
+			capname="listitem"
+			id="5932d31a-2bb9-4e10-b7aa-7cf81e92c5e2"
+			name="FullTimeInNursing"
+			refimgid="ccc43aad-40fe-4c24-bba4-0d9e23cd43dd"
+			refpath="/container[@caption='dropdown']/listitem[@accessiblename='Full Time in Nursing']"
+			searchtimeout="30000ms">
+				/container[@caption='dropdown']/listitem[@accessiblename='Full Time in Nursing']
+			</item>
+			<basepath>
+				/container[@caption='dropdown']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAABhUlEQVQ4T8WQvUsCYRzHb++F/oSGiMiiV4qWakiiqWyJGiK0cmxw
+kUhtMHqzTuWC0KKh2ZBqsTSHlt6oNkENBF+OoJZCKlO/PY/PGaIXCQ19jw/3e7787sPdcX/OkCOC
+LiGOVruIZqsIhS2BJj6BFnuCnBOoJ3OdJQYFL6LR+ohOWxS9y7cQ/FHkBNVaL2qmfajUeFFF7nno
+uULNoHOD/gK1uit0zx1hdGwBeuEALpcLnPk4gkAkjrtwDPfheAGF5xiug1HcEC5DInzBJ0zMO8Hz
+PLid82fkky26fupo+me3mGDbL0pVqgw+c1DRgNbOBI6zOClp8gvFD5WSE8zw0id4o6SkkV8uhb5B
+GkrNBhPsnkZISSO3LAcVZKBUrzHBnueBlDRyy3JIgqkVJtj3hEhJ/3ZGIv0LdCeLwcklJnAeBvCa
+TOEl+UF4J7xJszz53W+BevEEPeMC2lUWifWCuZS24VV0qDbRN6JjAhpBEGAymWA0GsvCYDDAbDbD
+7XYzwT+G474AUqqnq7MiKz0AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

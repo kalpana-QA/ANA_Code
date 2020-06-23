@@ -1,0 +1,17 @@
+﻿<Properties>
+  <Array name="active" />
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="ANA.rxtst" />
+    <Element value="RecoderModules\CreateNewAccountPage.rxrec" />
+    <Element value="RecoderModules\CreateNewAccountPage.UserCode.cs" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Array name="recentusercodeselections">
+      <Element value="ANA.RecoderModules.CreateNewAccountPage.selectDdlEmpStatus()" />
+      <Element value="ANA.RecoderModules.CreateNewAccountPage.selectStateFromDrpdown()" />
+      <Element value="ANA.RecoderModules.CreateNewAccountPage.selectOptionFromDrpdown(String argument1)" />
+      <Element value="ANA.RecoderModules.CreateNewAccountPage.selectOptionFromDrpdown()" />
+    </Array>
+  </Properties>
+</Properties>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="ANA"
+      id="d62f6cb8-cc5e-4a28-9037-5a8bbe7ba46b"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="ANA"
+      id="d62f6cb8-cc5e-4a28-9037-5a8bbe7ba46b"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

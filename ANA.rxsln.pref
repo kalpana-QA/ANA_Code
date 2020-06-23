@@ -1,0 +1,16 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{F201BB26-9D5D-42A1-9E7F-9CD20E17946B}</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>a135f36f-4348-4281-8b62-4949566bbea0</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution ANA[ANA[Reports[]RecoderModules[]ANA.rxtst[]]]]&#xD;&#xA;Solution ANA\ANA\Reports\ANA_20200622_183336.rxlog&#xD;&#xA;Solution ANA\ANA\Reports" />
+  <StartupProject value="{F201BB26-9D5D-42A1-9E7F-9CD20E17946B}" />
+</Properties>

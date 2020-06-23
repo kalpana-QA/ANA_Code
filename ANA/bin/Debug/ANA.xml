@@ -1,0 +1,692 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ANA</name>
+    </assembly>
+    <members>
+        <member name="T:ANA.ANARepository">
+            <summary>
+            The class representing the ANARepository element repository.
+            </summary>
+        </member>
+        <member name="M:ANA.ANARepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the ANARepository element repository.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.Lastname">
+            <summary>
+            The Lastname item.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.LastnameInfo">
+            <summary>
+            The Lastname item info.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.Firstname">
+            <summary>
+            The Firstname item.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.FirstnameInfo">
+            <summary>
+            The Firstname item info.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.AddressField1">
+            <summary>
+            The AddressField1 item.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.AddressField1Info">
+            <summary>
+            The AddressField1 item info.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.CITY">
+            <summary>
+            The CITY item.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.CITYInfo">
+            <summary>
+            The CITY item info.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.Zipcode">
+            <summary>
+            The Zipcode item.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.ZipcodeInfo">
+            <summary>
+            The Zipcode item info.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.phone1">
+            <summary>
+            The phone1 item.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.phone1Info">
+            <summary>
+            The phone1 item info.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.Phone2">
+            <summary>
+            The Phone2 item.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.Phone2Info">
+            <summary>
+            The Phone2 item info.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.phone3">
+            <summary>
+            The phone3 item.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.phone3Info">
+            <summary>
+            The phone3 item info.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.NewPassword">
+            <summary>
+            The NewPassword item.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.NewPasswordInfo">
+            <summary>
+            The NewPassword item info.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.ConfirmPassword">
+            <summary>
+            The ConfirmPassword item.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.ConfirmPasswordInfo">
+            <summary>
+            The ConfirmPassword item info.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.PositionDescription">
+            <summary>
+            The PositionDescription item.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.PositionDescriptionInfo">
+            <summary>
+            The PositionDescription item info.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.ADVANCEDPRACTICE">
+            <summary>
+            The ADVANCEDPRACTICE item.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.ADVANCEDPRACTICEInfo">
+            <summary>
+            The ADVANCEDPRACTICE item info.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.Userregnext">
+            <summary>
+            The Userregnext item.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.UserregnextInfo">
+            <summary>
+            The Userregnext item info.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.TxtEmail">
+            <summary>
+            The TxtEmail item.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.TxtEmailInfo">
+            <summary>
+            The TxtEmail item info.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.BtnNext">
+            <summary>
+            The BtnNext item.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.BtnNextInfo">
+            <summary>
+            The BtnNext item info.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.Profile">
+            <summary>
+            The Profile folder.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.Login">
+            <summary>
+            The Login folder.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.SelectingOptionInASelectListDrop">
+            <summary>
+            The SelectingOptionInASelectListDrop folder.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepository.Dropdown">
+            <summary>
+            The Dropdown folder.
+            </summary>
+        </member>
+        <member name="T:ANA.ANARepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:ANA.ANARepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:ANA.ANARepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepositoryFolders.ApplicationUnderTestAppFolder.JoinANA">
+            <summary>
+            The JoinANA item.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepositoryFolders.ApplicationUnderTestAppFolder.JoinANAInfo">
+            <summary>
+            The JoinANA item info.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepositoryFolders.ApplicationUnderTestAppFolder.JOINUSTODAY">
+            <summary>
+            The JOINUSTODAY item.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepositoryFolders.ApplicationUnderTestAppFolder.JOINUSTODAYInfo">
+            <summary>
+            The JOINUSTODAY item info.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepositoryFolders.ApplicationUnderTestAppFolder.MemberShip_Page">
+            <summary>
+            The MemberShip_Page folder.
+            </summary>
+        </member>
+        <member name="T:ANA.ANARepositoryFolders.MemberShip_PageFolder">
+            <summary>
+            The MemberShip_PageFolder folder.
+            </summary>
+        </member>
+        <member name="M:ANA.ANARepositoryFolders.MemberShip_PageFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MemberShip_Page  folder.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepositoryFolders.MemberShip_PageFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepositoryFolders.MemberShip_PageFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepositoryFolders.MemberShip_PageFolder.BtnSaveMemberShipProducts">
+            <summary>
+            The BtnSaveMemberShipProducts item.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepositoryFolders.MemberShip_PageFolder.BtnSaveMemberShipProductsInfo">
+            <summary>
+            The BtnSaveMemberShipProducts item info.
+            </summary>
+        </member>
+        <member name="T:ANA.ANARepositoryFolders.ProfileFolder">
+            <summary>
+            The ProfileFolder folder.
+            </summary>
+        </member>
+        <member name="M:ANA.ANARepositoryFolders.ProfileFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Profile  folder.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepositoryFolders.ProfileFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepositoryFolders.ProfileFolder.DdlEmpStatus">
+            <summary>
+            The DdlEmpStatus item.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepositoryFolders.ProfileFolder.DdlEmpStatusInfo">
+            <summary>
+            The DdlEmpStatus item info.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepositoryFolders.ProfileFolder.STATE">
+            <summary>
+            The STATE item.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepositoryFolders.ProfileFolder.STATEInfo">
+            <summary>
+            The STATE item info.
+            </summary>
+        </member>
+        <member name="T:ANA.ANARepositoryFolders.LoginAppFolder">
+            <summary>
+            The LoginAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:ANA.ANARepositoryFolders.LoginAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Login  folder.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepositoryFolders.LoginAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepositoryFolders.LoginAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepositoryFolders.LoginAppFolder.Password">
+            <summary>
+            The Password item.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepositoryFolders.LoginAppFolder.PasswordInfo">
+            <summary>
+            The Password item info.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepositoryFolders.LoginAppFolder.Login">
+            <summary>
+            The Login item.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepositoryFolders.LoginAppFolder.LoginInfo">
+            <summary>
+            The Login item info.
+            </summary>
+        </member>
+        <member name="T:ANA.ANARepositoryFolders.SelectingOptionInASelectListDropAppFolder">
+            <summary>
+            The SelectingOptionInASelectListDropAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:ANA.ANARepositoryFolders.SelectingOptionInASelectListDropAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SelectingOptionInASelectListDrop  folder.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepositoryFolders.SelectingOptionInASelectListDropAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepositoryFolders.SelectingOptionInASelectListDropAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepositoryFolders.SelectingOptionInASelectListDropAppFolder.Inner">
+            <summary>
+            The Inner item.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepositoryFolders.SelectingOptionInASelectListDropAppFolder.InnerInfo">
+            <summary>
+            The Inner item info.
+            </summary>
+        </member>
+        <member name="T:ANA.ANARepositoryFolders.DropdownAppFolder">
+            <summary>
+            The DropdownAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:ANA.ANARepositoryFolders.DropdownAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Dropdown  folder.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepositoryFolders.DropdownAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepositoryFolders.DropdownAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepositoryFolders.DropdownAppFolder.FullTimeInNursing">
+            <summary>
+            The FullTimeInNursing item.
+            </summary>
+        </member>
+        <member name="P:ANA.ANARepositoryFolders.DropdownAppFolder.FullTimeInNursingInfo">
+            <summary>
+            The FullTimeInNursing item info.
+            </summary>
+        </member>
+        <member name="T:ANA.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:ANA.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the ANARepository repository.
+            </summary>
+        </member>
+        <member name="M:ANA.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ANA.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ANA.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ANA.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ANA.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ANA.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:ANA.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:ANA.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the ANARepository repository.
+            </summary>
+        </member>
+        <member name="M:ANA.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ANA.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ANA.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ANA.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ANA.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ANA.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:ANA.RecoderModules.ProfilePage">
+             <summary>
+            The ProfilePage recording.
+             </summary>
+        </member>
+        <member name="F:ANA.RecoderModules.ProfilePage.repo">
+            <summary>
+            Holds an instance of the global::ANA.ANARepository repository.
+            </summary>
+        </member>
+        <member name="M:ANA.RecoderModules.ProfilePage.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ANA.RecoderModules.ProfilePage.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ANA.RecoderModules.ProfilePage.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ANA.RecoderModules.ProfilePage.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ANA.RecoderModules.ProfilePage.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ANA.RecoderModules.ProfilePage.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:ANA.RecoderModules.ProfilePage.firstname">
+            <summary>
+            Gets or sets the value of variable firstname.
+            </summary>
+        </member>
+        <member name="P:ANA.RecoderModules.ProfilePage.lastname">
+            <summary>
+            Gets or sets the value of variable lastname.
+            </summary>
+        </member>
+        <member name="P:ANA.RecoderModules.ProfilePage.addressfield1">
+            <summary>
+            Gets or sets the value of variable addressfield1.
+            </summary>
+        </member>
+        <member name="P:ANA.RecoderModules.ProfilePage.city">
+            <summary>
+            Gets or sets the value of variable city.
+            </summary>
+        </member>
+        <member name="P:ANA.RecoderModules.ProfilePage.zipcode">
+            <summary>
+            Gets or sets the value of variable zipcode.
+            </summary>
+        </member>
+        <member name="P:ANA.RecoderModules.ProfilePage.phone1">
+            <summary>
+            Gets or sets the value of variable phone1.
+            </summary>
+        </member>
+        <member name="P:ANA.RecoderModules.ProfilePage.phone2">
+            <summary>
+            Gets or sets the value of variable phone2.
+            </summary>
+        </member>
+        <member name="P:ANA.RecoderModules.ProfilePage.phone3">
+            <summary>
+            Gets or sets the value of variable phone3.
+            </summary>
+        </member>
+        <member name="P:ANA.RecoderModules.ProfilePage.NewPassword">
+            <summary>
+            Gets or sets the value of variable NewPassword.
+            </summary>
+        </member>
+        <member name="P:ANA.RecoderModules.ProfilePage.ConfirmPassword">
+            <summary>
+            Gets or sets the value of variable ConfirmPassword.
+            </summary>
+        </member>
+        <member name="P:ANA.RecoderModules.ProfilePage.Dropdown_Value">
+            <summary>
+            Gets or sets the value of variable Dropdown_Value.
+            </summary>
+        </member>
+        <member name="T:ANA.RecoderModules.HomePage">
+             <summary>
+            The HomePage recording.
+             </summary>
+        </member>
+        <member name="F:ANA.RecoderModules.HomePage.repo">
+            <summary>
+            Holds an instance of the global::ANA.ANARepository repository.
+            </summary>
+        </member>
+        <member name="M:ANA.RecoderModules.HomePage.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ANA.RecoderModules.HomePage.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ANA.RecoderModules.HomePage.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ANA.RecoderModules.HomePage.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ANA.RecoderModules.HomePage.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ANA.RecoderModules.HomePage.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:ANA.RecoderModules.HomePage.email_address">
+            <summary>
+            Gets or sets the value of variable email_address.
+            </summary>
+        </member>
+        <member name="P:ANA.RecoderModules.HomePage.password">
+            <summary>
+            Gets or sets the value of variable password.
+            </summary>
+        </member>
+        <member name="T:ANA.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:ANA.Recording1.repo">
+            <summary>
+            Holds an instance of the ANARepository repository.
+            </summary>
+        </member>
+        <member name="M:ANA.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ANA.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ANA.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ANA.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ANA.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ANA.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

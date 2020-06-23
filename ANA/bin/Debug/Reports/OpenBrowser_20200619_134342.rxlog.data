@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="14eb386f500637a0"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Shubham"
+		rxversion="9.1.2.0"
+		host="SHUBHAM-VERMA"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1366x768"
+		timestamp="19-06-2020 13:43:49"
+		timestampiso="2020-06-19T08:13:49"
+		endtime="19-06-2020 13:43:56"
+		timeoutfactor="1"
+		module="OpenBrowser">
+		<detail>
+			OpenBrowser
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.774"
+			timeRelativeToTestModuleStartTime="00:06.774"
+			timeWallClock="13:43:55"
+			time="00:06.774"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://test.nursingworld.org/' with browser 'IE' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="d:\ANA\ANA\ANA\OpenBrowser.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>
