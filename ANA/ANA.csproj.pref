@@ -1,10 +1,10 @@
 ﻿<Properties>
-  <Array name="active" />
+  <Array name="active">
+    <Element value="ANA.rxtst" />
+  </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="ANA.rxtst" />
-    <Element value="RecoderModules\CreateNewAccountPage.rxrec" />
-    <Element value="RecoderModules\CreateNewAccountPage.UserCode.cs" />
   </Array>
   <Properties name="projectSavedData">
     <Array name="recentusercodeselections">

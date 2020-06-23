@@ -98,7 +98,13 @@
     <Reference Include="Ranorex.Plugin.WinForms">
       <Private>False</Private>
     </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
